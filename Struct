@@ -8,7 +8,7 @@ struct employee
 void main()
 { struct employee record[20];
   int i;
-  for(i=0;i<20;i++)
+  for(i=0;i<=20;i++)
   { printf("name=%s",record.name);
     scanf("%c",&record.name);
     printf("age=%d",record.age);
