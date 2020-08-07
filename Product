@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{ 
+  float a;
+  float b;
+  cout<<"enter the value of a";
+  cin>>a;
+  cout<<"enter the value of b";
+  cin>>b;
+  float c=a*b;
+  cout<<"c:"<<c;
+  return 0;
+}
+  
