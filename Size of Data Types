@@ -1,2 +1,14 @@
-
-
+#include<iostream>
+using namespace std;
+int Integer;
+char Character;
+float Float;
+double Double;
+int main()
+{ 
+  cout<<"\n the size of Integer:"<<sizeof(Integer);
+  cout<<"\n the size of Character:"<<sizeof(Character);
+  cout<<"\n the size of Float:"<<sizeof(Float);
+  cout<<"\n the size of Double:"<<sizeof(Double);
+  return 0;
+}
