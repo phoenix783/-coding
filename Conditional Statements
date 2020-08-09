@@ -1,0 +1,27 @@
+#include<iostream
+using namespace std;
+
+int main()
+{
+    int age;
+    int registration;
+    cout<<"enter the value of age of candidate";
+    cin>>age;
+    cout<<"enter the registration";
+    cin>>registration;
+    if(age<18)
+    {
+      cout<<"not eligible to vote";
+      }
+      else 
+      { cout<<"eligible to vote";
+      }
+      if(registration>10 && registration<=15)
+      { cout<<"in charge of block 5";
+      }
+      else if(registration>0 && registration<=10)
+      {cout<<"\nin charge of block 3";
+      }
+      return 0;
+      
+}
