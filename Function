@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int isprime(int n);
+int nextprime(int n);
+int main()
+{
+  int c;
+  int i;
+  cout<<"enter the value of c";
+  cin>>c;
+  for(i=2;i<=(c-i);i=nextprime(i))
+  {
+    if(isprime(c-i))
+    {
+      cout<<i<<"+"<<(c-i)<<"="<<c<<endl;
+      
+    }
+  }
+  return 0;
+}
+int nextprime(int n)
+{
+  do 
+  n++;
+  while(!isprime(n));
+  return (n);
+}
+int isprime(int n)
+{
+  int i;
+  for(i=2;i<n;i++)
+  {
+    if(n%i==0)
+    return 0;
+    
+  }
+  return 1;
+}
