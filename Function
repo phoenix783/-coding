@@ -12,7 +12,7 @@ int main()
   {
     if(isprime(c-i))
     {
-      cout<<i<<"+"<<(c-i)<<"="<<c<<endl;
+      cout<<c<<"="<<i<<"+"<<(c-i)<<endl;
       
     }
   }
