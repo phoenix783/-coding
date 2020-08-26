@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Time
+{
+  int hour;
+  int min;
+  int sec;
+  public:
+    void get_time(void);   
+};
+void Time::get_time(void)
+{
+  cout<<"enter time";
+      cin>>hour;
+      cin>>min;
+      cin>>sec;
+      cout<<"The time is"<<"="<<hour<<":"<<min<<":"<<sec<<endl;
+      cout<<"Time in total seconds:"<<(3600*hour)+(60*min)+sec<<endl;
+}
+int main()
+{
+    Time obj;
+    obj.get_time();
+    return 0;
+}
